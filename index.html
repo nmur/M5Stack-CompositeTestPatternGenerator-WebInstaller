@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESP Web Installer</title>
+	    <style>
+        body {
+            display: flex;
+            justify-content: center;
+			flex-direction: column;
+            align-items: center;
+            text-align: center; 
+        }
+    </style>
+</head>
+<body>
+    <h1>Install the M5Stack-CompositeTestPatternGenerator Firmware</h1>
+    <p>Click the button below to install the M5Stack-CompositeTestPatternGenerator firmware on your M5StickC PLUS2:</p>
+
+    <!-- ESP Web Tools Script and Install Button -->
+    <script type="module" src="https://unpkg.com/esp-web-tools@10/dist/web/install-button.js?module"></script>
+    <esp-web-install-button manifest="https://raw.githubusercontent.com/nmur/M5Stack-CompositeTestPatternGenerator-WebInstaller/refs/heads/main/manifest.json">
+    </esp-web-install-button>
+	
+    <p>Note: you will need the CH340 USB driver installed on your machine in order to connect to your device.</p>
+</body>
+</html>
