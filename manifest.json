@@ -1,6 +1,6 @@
 {
   "name": "M5Stack-CompositeTestPatternGenerator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "new_install_prompt_erase": true,
   "builds": [
     {
